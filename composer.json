@@ -1,0 +1,19 @@
+{
+    "name": "r-portal/t-field",
+    "description": "Common contracts for the fields",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RPortal\\TField\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rochev yakov",
+            "email": "gitarar98@yanex.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0"
+    }
+}
