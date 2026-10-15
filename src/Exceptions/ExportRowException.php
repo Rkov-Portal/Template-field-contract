@@ -9,12 +9,12 @@ class ExportRowException extends Exception
 {
     protected CommonFieldFactoryContract $field;
 
-    public function setRowKey(CommonFieldFactoryContract $field): void
+    public function setField(CommonFieldFactoryContract $field): void
     {
         $this->field = $field;
     }
 
-    public function getRowKey(): CommonFieldFactoryContract
+    public function getField(): CommonFieldFactoryContract
     {
         return $this->field;
     }
